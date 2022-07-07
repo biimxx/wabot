@@ -160,7 +160,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
     conn.sendHydrated(m.chat, text.trim(), 'biim', null, 'https://www.youtube.com/c/BIMch17', 'YT BIMch', '', '', [
       ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['𝗝𝗔𝗦𝗔 𝗥𝗨𝗡', '/sewa'],
+      ['SEWA', '/sewa'],
       ['✿𝗢𝗪𝗡𝗘𝗥✿', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
